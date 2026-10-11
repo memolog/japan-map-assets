@@ -1,0 +1,247 @@
+{
+  "source": {
+    "title": "MLIT National Land Numerical Information, Administrative Areas (N03)",
+    "page": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html",
+    "license": "CC BY 4.0 (2026 release; verify terms for other releases)",
+    "date": "2026-01-01",
+    "acquiredDate": "2026-10-11",
+    "acquisition": null,
+    "archiveSha256": "1f714fca019e22e6f84012dba420384fc7b49c6ad8bd0a867ab1cfb593a78477",
+    "inputs": {
+      "N03-20260101.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "N03-20260101.dbf": "2d2692800f8261243b281708dc99b89e7a7bd9ba8d8674bec14e7dcf47575911",
+      "N03-20260101.prj": "1761bb7f37f73fd0eb043175a78403ba37ff1066299987c116fd43bbd0057eae",
+      "N03-20260101.shp": "6325d7f08c9374198e27b2cffd01bd420411be8b3cf3528da0587c6cea35538d",
+      "N03-20260101.shx": "62e0a234588c44eec98778808602e94af90af2d3f85d18ab8bcabd38c5d36751"
+    }
+  },
+  "settings": {
+    "retain": "0.5%",
+    "iconRetain": "0.2%",
+    "iconIslands": "largest",
+    "projection": "Conic conformal, parallels 30/40, central meridian 137",
+    "videoInsets": "Okinawa only; frame right aligned to projected Hokkaido east edge; Ogasawara and secondary island components overlapping the frame omitted in video layouts"
+  },
+  "files": {
+    "japan.topojson": {
+      "bytes": 1481720,
+      "sha256": "6122498ddcbe59b7487d2935db2abaebda50c551bb7cc1f5ec34e0cdb8bff29f"
+    },
+    "japan-video.svg": {
+      "bytes": 602955,
+      "sha256": "b88ad7524cb7856de238a64375ea4455dce2fc72e1f2ea8a7134483027c0fd86"
+    },
+    "japan-video-16x9.svg": {
+      "bytes": 602955,
+      "sha256": "b88ad7524cb7856de238a64375ea4455dce2fc72e1f2ea8a7134483027c0fd86"
+    },
+    "japan-video-9x16.svg": {
+      "bytes": 603011,
+      "sha256": "ca4f6337f4630273a0b867208dc13eefc973dca5f495195383cb8449a9eacfbe"
+    },
+    "japan-geographic.svg": {
+      "bytes": 604429,
+      "sha256": "696421cdc6f873b48370ceebc3c7eb3011691877f39adef67687ff6545a432e7"
+    },
+    "japan-video-16x9.layout.json": {
+      "bytes": 14939,
+      "sha256": "fa845568ddaf4c34b8f1fb5c7e45cf2dac3c0ea3a57e92c4a4bc4f8e60096d19"
+    },
+    "japan-video-9x16.layout.json": {
+      "bytes": 14704,
+      "sha256": "0dc14479418f13dbb667603ed8b31c795b66ca1f82a3972e9c1a710899b7ff10"
+    },
+    "japan-layout.js": {
+      "bytes": 5918,
+      "sha256": "b7767932f13814720fbb67cbb345e25fab2ce2efec0844e1d3df9ef85247c1df"
+    },
+    "prefectures/01.svg": {
+      "bytes": 11312,
+      "sha256": "475d5b8fac71560cc6845632bae60f32d40f186d376557e18621e6f5f7263273"
+    },
+    "prefectures/02.svg": {
+      "bytes": 5133,
+      "sha256": "ca6918972e54d84bfa450cd78d593cccbf6e1b2033d581141a6101f338cd4195"
+    },
+    "prefectures/03.svg": {
+      "bytes": 5759,
+      "sha256": "d06c0f1f63743f70b9601f5f0568fbc53d2735ca4e5701c418bd195a16af1ad1"
+    },
+    "prefectures/04.svg": {
+      "bytes": 8859,
+      "sha256": "c21804d8b979ac0207f08af1e9d40040c69a5db14ca02a4727bc6139bd2833c0"
+    },
+    "prefectures/05.svg": {
+      "bytes": 4374,
+      "sha256": "cc3282eaf205a786119f3b679793028bdbb259429f5b4e474821e58d8e317f61"
+    },
+    "prefectures/06.svg": {
+      "bytes": 3440,
+      "sha256": "b831b991537c577c317ca6ff616f6c81654a36c102525415c7d983cf08c76d5b"
+    },
+    "prefectures/07.svg": {
+      "bytes": 13748,
+      "sha256": "d37855d5f49718b30d1f0fd37859538ac748f6f358600c560f9b74bf7f139a95"
+    },
+    "prefectures/08.svg": {
+      "bytes": 3833,
+      "sha256": "b14bc20d71f24656064ecd56bd409866cc6e62e3b3f62325c5a8727229bf2870"
+    },
+    "prefectures/09.svg": {
+      "bytes": 2701,
+      "sha256": "46c07b3e47a6fbfe62b9a8999dfd49f4f23c5b9fd7bf033627dd9b4a6aa83691"
+    },
+    "prefectures/10.svg": {
+      "bytes": 8759,
+      "sha256": "281fb0ef0cd39aaf464bf8a68395da5eeb570bbf61a10c32d397ce73e664cf72"
+    },
+    "prefectures/11.svg": {
+      "bytes": 2511,
+      "sha256": "1827bbe50df141a07a703f93d92ab666b012a8044df7532cce7e6ec378273b15"
+    },
+    "prefectures/12.svg": {
+      "bytes": 3989,
+      "sha256": "bbafa93338aad9e51ced48647cbd60ab605f2c938e385dc829516630311885f2"
+    },
+    "prefectures/13.svg": {
+      "bytes": 2472,
+      "sha256": "8935158dd0851b37d9648b420d872b3b8d337ae2adc2030365bd2df19019e2f8"
+    },
+    "prefectures/14.svg": {
+      "bytes": 2617,
+      "sha256": "06441f72133a25cc3e7f95bf8afdff519e640a5fdf26f626763ff577235c928e"
+    },
+    "prefectures/15.svg": {
+      "bytes": 13688,
+      "sha256": "60d1943e71e24af7984880c1c7f39ee5f9bb0142c05ba8319b851362e26deeef"
+    },
+    "prefectures/16.svg": {
+      "bytes": 3145,
+      "sha256": "5da39423b5d480bc741f62898bd6591d4176d0f354fe5b779f0073de607c3d6e"
+    },
+    "prefectures/17.svg": {
+      "bytes": 3351,
+      "sha256": "ada6ad162e21345f79931b03571fe76ab4c296f71065373caa754257836affdd"
+    },
+    "prefectures/18.svg": {
+      "bytes": 3941,
+      "sha256": "0de57d00381278cca73592f7f9f5524d527231f780d6a666745f5e866da66d6d"
+    },
+    "prefectures/19.svg": {
+      "bytes": 2495,
+      "sha256": "87a98177461c6f2e266d61be38cddf2c3232b156c3726d957977b5db5aff7ad0"
+    },
+    "prefectures/20.svg": {
+      "bytes": 8887,
+      "sha256": "944ae2c79ba17c762d44b6ef5fb088486e292f504a75ba74e370b96e36bae473"
+    },
+    "prefectures/21.svg": {
+      "bytes": 5121,
+      "sha256": "3495e6f279c5259617e6aba066d259bc340a3d7a3a3cfa8c7c66c50ed86060ec"
+    },
+    "prefectures/22.svg": {
+      "bytes": 4510,
+      "sha256": "e35d9b92c768ff64b3b6d27b2d09d6987f5576867f06d6e926f15a63356bf9cb"
+    },
+    "prefectures/23.svg": {
+      "bytes": 3631,
+      "sha256": "56bd0bb4d9abb3ed03f00c54182bb3f3de4983c0b257ed9aabe996ec218467a9"
+    },
+    "prefectures/24.svg": {
+      "bytes": 4964,
+      "sha256": "cfc918319a7ebac52b5ce7bc16632dfc563fc552b6dacb342d4456e5be245a13"
+    },
+    "prefectures/25.svg": {
+      "bytes": 2494,
+      "sha256": "4e397b08ec791b5ed695dd8cf421ae509f07fde029ad694d20e2adc638c8a845"
+    },
+    "prefectures/26.svg": {
+      "bytes": 7645,
+      "sha256": "4d8ff89ce9dfff8bbe50c3cfb26f252a290bcdad26709028d9355b3d4c3244e8"
+    },
+    "prefectures/27.svg": {
+      "bytes": 2760,
+      "sha256": "56762c91d6fcda8576c006f6abbef424dbf3ca0d083692d44d33e8d500097f9a"
+    },
+    "prefectures/28.svg": {
+      "bytes": 8062,
+      "sha256": "9b9d604de04d38b27018353a7f4ff3bfc1119b8246fa2d73b6faf0f3431b841d"
+    },
+    "prefectures/29.svg": {
+      "bytes": 2796,
+      "sha256": "3469cd46acca9aa1a3dc1a6854de325f0021a4bd4d44af3307685a4e570dbb26"
+    },
+    "prefectures/30.svg": {
+      "bytes": 3479,
+      "sha256": "07123386537c0b662eed7e3a487292ec0182bafee46784e4104a54d239dc8948"
+    },
+    "prefectures/31.svg": {
+      "bytes": 3778,
+      "sha256": "e6e70f2835c35f0bff135fac736b2642be6323b950c34bd96b5d354e87497a21"
+    },
+    "prefectures/32.svg": {
+      "bytes": 4935,
+      "sha256": "d8a7322d2d68a8443188a782917f05b5679740dab65250ebb5e831565e8a148a"
+    },
+    "prefectures/33.svg": {
+      "bytes": 3648,
+      "sha256": "9e3286caa72dcc3b44d6d75abafeb0d6df5ec22c5ae77d5df152a419124d7eb7"
+    },
+    "prefectures/34.svg": {
+      "bytes": 3741,
+      "sha256": "6ce53b15af0540d01c0df5763c2bb514a48681535001e769df7ee0922a8af4b9"
+    },
+    "prefectures/35.svg": {
+      "bytes": 4014,
+      "sha256": "2711742fac0f8217161232073706313a92b82e9f2a31ca4343f4951022b349b5"
+    },
+    "prefectures/36.svg": {
+      "bytes": 2854,
+      "sha256": "15d055ff5d7ee9d03e82d21289e85ae4c1d01107d7662a1e7b5d7d4bb2cb6b32"
+    },
+    "prefectures/37.svg": {
+      "bytes": 2085,
+      "sha256": "ed7baa0f9795e4f3526c8e19f5a2645ad95f41bd12686906b3432ebe714484eb"
+    },
+    "prefectures/38.svg": {
+      "bytes": 9962,
+      "sha256": "7a88a19dea0f2c20e7c0505eaad479dedfc8c3962bc4c14f36ca084081627218"
+    },
+    "prefectures/39.svg": {
+      "bytes": 9385,
+      "sha256": "14ef4a6525cc5ecec368a40fc832c47a7d164f4adfd5ab750be7a9c9aa9aa17e"
+    },
+    "prefectures/40.svg": {
+      "bytes": 15454,
+      "sha256": "0b9152de143b044401cecc1d873548d015cb38b57a3663aadf3e8c89292b20eb"
+    },
+    "prefectures/41.svg": {
+      "bytes": 6508,
+      "sha256": "1809a8d0227c48207170f0e4b609f152aab38c6fd47cd0e4dba8ecc795af0d82"
+    },
+    "prefectures/42.svg": {
+      "bytes": 5562,
+      "sha256": "4e57a69d7be56e9589783abfa964a82e2363b25075c67569b8e2b2678fa08a07"
+    },
+    "prefectures/43.svg": {
+      "bytes": 40163,
+      "sha256": "632b91df8b596554646585177d26a3b418ea467db211bc23c29ddd5c97619b70"
+    },
+    "prefectures/44.svg": {
+      "bytes": 10512,
+      "sha256": "ff1f343cb5b365b167b8d61d48f0668a00a63497c6c533dbe73a6b4363e40d3b"
+    },
+    "prefectures/45.svg": {
+      "bytes": 24988,
+      "sha256": "9e0a1a42793a00d3db1769febcab0c7362337b76b30522fb142c77a38d1295aa"
+    },
+    "prefectures/46.svg": {
+      "bytes": 15954,
+      "sha256": "d5f9edd990adbee48ef26261af794b180cdd272d0418bda909ed5ef865be04e3"
+    },
+    "prefectures/47.svg": {
+      "bytes": 2708,
+      "sha256": "5226cc447b73030f7ae0d2495fab66c341cebdc7d60f27f1ad66f98b4b541320"
+    }
+  }
+}

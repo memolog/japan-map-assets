@@ -1,0 +1,28 @@
+{
+  "name": "japan-map-assets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download": "node --import tsx src/download.ts",
+    "generate:maps": "node --import tsx src/generate.ts",
+    "preview": "node --import tsx src/preview.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "mapshaper": "^0.7.83",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^24.0.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
+    "fast-xml-parser": "^5.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

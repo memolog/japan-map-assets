@@ -1,0 +1,1 @@
+declare module 'mapshaper' { export function applyCommands(commands: string, input: Record<string, string | Buffer>, callback: (error: Error | null, output: Record<string, string | Buffer>) => void): void; }

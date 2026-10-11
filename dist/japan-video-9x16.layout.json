@@ -1,0 +1,895 @@
+{
+  "schemaVersion": 2,
+  "width": 900,
+  "height": 1600,
+  "digits": 2,
+  "source": {
+    "file": "japan.topojson",
+    "object": "prefectures",
+    "sha256": "6122498ddcbe59b7487d2935db2abaebda50c551bb7cc1f5ec34e0cdb8bff29f"
+  },
+  "regions": [
+    {
+      "id": "mainland",
+      "label": "Mainland and other islands",
+      "textLabel": null,
+      "members": [
+        {
+          "code": "01",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "code": "02",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "03",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "04",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "code": "05",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "06",
+          "polygonIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "code": "07",
+          "polygonIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "code": "08",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "09",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "10",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "11",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "12",
+          "polygonIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "code": "13",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "code": "14",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "code": "15",
+          "polygonIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "code": "16",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "17",
+          "polygonIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "code": "18",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "19",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "20",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "21",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "22",
+          "polygonIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "code": "23",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "code": "24",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "code": "25",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "26",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "27",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "code": "28",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "code": "29",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "30",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "code": "31",
+          "polygonIndices": [
+            0
+          ]
+        },
+        {
+          "code": "32",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "code": "33",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "code": "34",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "code": "35",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "code": "36",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "code": "37",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "code": "38",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        },
+        {
+          "code": "39",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "code": "40",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "code": "41",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "code": "42",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        {
+          "code": "43",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "code": "44",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "code": "45",
+          "polygonIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "code": "46",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ]
+        }
+      ],
+      "projection": {
+        "type": "conicConformal",
+        "parallels": [
+          30,
+          40
+        ],
+        "rotate": [
+          -137,
+          0
+        ],
+        "center": [
+          0,
+          36
+        ],
+        "scale": 2973.207539887892,
+        "translate": [
+          430.93594261031217,
+          660.8502650898791
+        ]
+      },
+      "frame": null
+    },
+    {
+      "id": "okinawa",
+      "label": "沖縄地方",
+      "textLabel": {
+        "text": "沖縄地方",
+        "x": 477.35999999999996,
+        "y": 1307.54,
+        "fontSize": 16.2,
+        "fontFamily": "sans-serif"
+      },
+      "members": [
+        {
+          "code": "47",
+          "polygonIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      ],
+      "projection": {
+        "type": "conicConformal",
+        "parallels": [
+          30,
+          40
+        ],
+        "rotate": [
+          -137,
+          0
+        ],
+        "center": [
+          0,
+          36
+        ],
+        "scale": 2845.927376742437,
+        "translate": [
+          1091.962919567343,
+          939.8224259692702
+        ]
+      },
+      "frame": {
+        "path": "M466.02,1280H868.5V1544H418.5V1327.52Z",
+        "bounds": [
+          [
+            418.5,
+            1280
+          ],
+          [
+            868.5,
+            1544
+          ]
+        ]
+      }
+    }
+  ],
+  "omitted": [
+    {
+      "code": "13",
+      "polygonIndex": 20,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 21,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 22,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 23,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 24,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 25,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 26,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 27,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 28,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 29,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 30,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 31,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 32,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 33,
+      "reason": "ogasawara"
+    },
+    {
+      "code": "13",
+      "polygonIndex": 34,
+      "reason": "ogasawara"
+    }
+  ]
+}
