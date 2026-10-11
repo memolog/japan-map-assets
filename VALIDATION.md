@@ -13,7 +13,7 @@ Settings: map retention 0.5%, icon retention 0.2%, largest polygon icons. Source
 | japan-geographic.svg | 604,429 |
 | japan-video-16x9.layout.json | 14,939 |
 | japan-video-9x16.layout.json | 14,704 |
-| japan-layout.js | 5,918 |
+| japan-layout.js | 5,938 |
 | 47 silhouette SVGs combined | 326,727 |
 
 - `npm test`: all 7 tests passed, including real generated assets; no skips. Checks cover all codes/names, municipal dissolution, shared arcs, TopoJSON decoding, SVG XML, finite positive viewBoxes, unique IDs and output hashes.
@@ -27,3 +27,5 @@ Settings: map retention 0.5%, icon retention 0.2%, largest polygon icons. Source
 Remaining tradeoffs: largest-polygon icons omit islands by default; choose `--icon-islands all` to retain them. Video insets use different uniform scales from the mainland, and are unsuitable for area comparisons. Geographic output retains geographic positions. National-source generation uses substantial memory and requires `unzip`; consuming the generated assets requires neither Mapshaper nor the source archive. Official provisional boundaries remain provisional. No video-rendering components are included.
 
 The Okinawa inset now includes an upper-left “沖縄地方” label. Both aspect ratios were inspected in Chrome. The layout JSON records text position/font size, and automated verification checks the SVG text against those settings and confirms the islands lie below the label.
+
+The portrait Okinawa inset was moved upward by 224 viewBox units, preserving its dimensions and alignment with Hokkaido. Its vertical bounds are now 1056–1320 on the 900×1600 canvas. Browser inspection confirmed separation from the main map; all seven tests and the type check passed.

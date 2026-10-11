@@ -57,7 +57,7 @@ export function createLayout(features, width, height, source) {
     // Include every source Hokkaido component, including the easternmost islands.
     const right = mainPath.bounds(hokkaido ?? { type: 'FeatureCollection', features: mainFeatures })[1][0];
     const insetWidth = width * (portrait ? .50 : .30);
-    const bounds = [[Math.max(pad, right - insetWidth), height * (portrait ? .80 : .69)], [right, height * .965]];
+    const bounds = [[Math.max(pad, right - insetWidth), height * (portrait ? .66 : .69)], [right, height * (portrait ? .825 : .965)]];
     const [[x0, y0], [x1, y1]] = bounds;
     const inset = regions[1];
     if (inset.members.length) {

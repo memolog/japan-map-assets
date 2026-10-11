@@ -37,7 +37,7 @@
     },
     "japan-video-9x16.svg": {
       "bytes": 603011,
-      "sha256": "ca4f6337f4630273a0b867208dc13eefc973dca5f495195383cb8449a9eacfbe"
+      "sha256": "606134e73343d574dfeda821f24bdd34634831646fd7792d19d4788174fd5211"
     },
     "japan-geographic.svg": {
       "bytes": 604429,
@@ -49,11 +49,11 @@
     },
     "japan-video-9x16.layout.json": {
       "bytes": 14704,
-      "sha256": "0dc14479418f13dbb667603ed8b31c795b66ca1f82a3972e9c1a710899b7ff10"
+      "sha256": "8c567e656af7082d282e101ff8a07c99f1573c1da8abd203f65b3f730103e5db"
     },
     "japan-layout.js": {
-      "bytes": 5918,
-      "sha256": "b7767932f13814720fbb67cbb345e25fab2ce2efec0844e1d3df9ef85247c1df"
+      "bytes": 5938,
+      "sha256": "30084c1dc6f06bf25ec2a6ab55a9a3e7d4d8002dcbe3b3bbe1c3f37171e46414"
     },
     "prefectures/01.svg": {
       "bytes": 11312,

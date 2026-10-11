@@ -45,7 +45,7 @@ Inputs must contain N03_001 (prefecture name), and any supplied N03_007 municipa
 | japan-layout.js | ESM helper reproducing SVG paths from geographic features |
 | manifest.json | Source provenance, settings, input/output hashes and byte sizes |
 
-Video has only two groups: the main map and Okinawa prefecture (`47`). Okinawa uses an angled-corner inset frame whose right edge aligns exactly with the main projection's easternmost Hokkaido coordinate, including all Hokkaido components supplied by N03. Landscape places the frame in the lower-right sea area; portrait places it below the main map.
+Video has only two groups: the main map and Okinawa prefecture (`47`). Okinawa uses an angled-corner inset frame whose right edge aligns exactly with the main projection's easternmost Hokkaido coordinate, including all Hokkaido components supplied by N03. Landscape places the frame in the lower-right sea area; portrait places it alongside the lower-right sea area of the main map (66%–82.5% of canvas height).
 
 Ogasawara is omitted from Video (Tokyo `13` polygon components entirely south of 28°N). Other islands normally retain geographic positions. Secondary polygon components whose projected bounding boxes intersect the Okinawa frame's bounding box, including a 2px clearance, are omitted completely from Video. The largest polygon of each prefecture is always retained. The conservative bounding-box rule also suppresses islands near the angled corner, ensuring a clear frame without cutting island geometry. Projection fitting happens before overlap omissions and is not repeated, keeping the Hokkaido alignment stable. All omitted components and reasons are recorded in the layout JSON. Geographic SVG and TopoJSON retain these islands.
 
