@@ -2,6 +2,20 @@
 
 A reproducible Node.js / TypeScript CLI producing standalone prefecture SVGs and TopoJSON for D3, React and Remotion video projects. Rendering video is outside this repository's scope.
 
+## GitHub Pages demo
+
+The interactive demo supports Video (16:9 / 9:16) and Geographic layouts, per-prefecture colors, boundary width, and all 47 silhouettes. Once deployed, it is available at https://memolog.github.io/japan-map-assets/.
+
+In the repository's **Settings → Pages → Build and deployment → Source**, select **GitHub Actions**. Push these changes to `main`, or run **Deploy demo to GitHub Pages** manually from the Actions tab. The workflow checks the assets, builds the static demo, and deploys it using the official GitHub Pages actions.
+
+```sh
+npm ci
+npm run build:demo
+python3 -m http.server 4173 --directory _site
+```
+
+Open http://localhost:4173. The build copies the existing `dist/` assets and license notices into `_site/`; it does not download or regenerate geographic data. Relative URLs support GitHub Pages project paths and custom domains. Keep generated `dist/` assets committed when updating the map. `_site/` is ignored by Git.
+
 ## Setup and source
 
 Use Node.js 24 or later and an installed `unzip` command (macOS/Linux). Run `npm ci`. The source is [MLIT National Land Numerical Information, N03](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html). The latest release verified on October 11, 2026 is January 1, 2026; the national ZIP is approximately 766 MB. Source files are ignored by Git.

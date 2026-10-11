@@ -8,7 +8,8 @@
     "generate:maps": "node --import tsx src/generate.ts",
     "preview": "node --import tsx src/preview.ts",
     "test": "node --import tsx --test test/*.test.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:demo": "node --import tsx src/build-demo.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",
